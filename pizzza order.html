@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>피자 주문 창</title>
+</head>
+<body>
+  <h2>주문할 피자를 선택해주세요</h2>
+  <table  style border="1px">
+    <tr>
+      <th>이름</th>
+      <th>가격</th>
+      <th>할인율</th>
+    </tr>
+    <tr>
+      <th>퍼퍼로니 피자</th>
+      <td>19000</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <th>시그니처 피자</th>
+      <td>30000</td>
+      <td rowspan="2">50%</td>
+    </tr>
+    <tr>
+      <th>핵불맛 피자</th>
+      <td>20000</td>
+    </tr>
+  </table>
+
+  <from action="#" method="get">
+    <fieldset>
+      <legend>주문</legend>
+      <label>피자선택</label>
+    </fieldset>
+  </from>
+  
+</body>
+</html>

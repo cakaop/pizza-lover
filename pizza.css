@@ -1,0 +1,14 @@
+
+
+nav{
+  border-bottom:1px solid rgba(139, 139, 139, 0.753);
+}
+
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration:none;
+}
