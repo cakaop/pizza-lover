@@ -1,14 +1,49 @@
 
-
 nav{
   border-bottom:1px solid rgba(139, 139, 139, 0.753);
 }
 
-
 nav ul{
   list-style: none;
+  text-align: center;
 }
 
 nav ul li a{
-  text-decoration:none;
+ text-decoration:none;
+ color:black;
+ font-size:25px;
+ font-weight: bold;
+ padding:8px;
+}
+
+nav ul li{
+  display: inline;
+  padding:0px 90px;
+}
+
+li a:hover{
+  background-color: rgb(188, 0, 0);
+  color:white;
+}
+
+.welcome{
+  text-align: center;
+  background-color: rgb(200, 0, 0);
+  padding:60px;
+  color:white;
+  margin-bottom: 30px;
+}
+
+.welcome h1{
+  font-size: 60px;
+}
+
+.welcome p{
+  font-size:20px;
+}
+
+.event{
+  border:0.5px solid lightgray;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }

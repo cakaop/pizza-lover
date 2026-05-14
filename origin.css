@@ -1,0 +1,33 @@
+*{
+  text-align: center;
+}
+
+h2{
+  font-size:50px;
+}
+
+table,th,td{
+  border:1px solid rgb(168, 168, 168);
+}
+
+table{
+  width:100%;
+  border-collapse: collapse;
+  margin-bottom: 150px;
+}
+
+caption{
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(0, 52, 43);
+  color:white;
+}
+
+th{
+  background-color: rgb(1, 1, 108);
+  color:white;
+}
+
+tr:hover{
+  background-color: rgb(254, 232, 202);
+}
